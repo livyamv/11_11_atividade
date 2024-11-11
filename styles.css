@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+header {
+  background-color: #f7dde5;
+  padding: 20px;
+  text-align: center;
+  color: #e699b2;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+header .logo h1 {
+  margin-bottom: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li2 {
+  margin: 0 15px;
+}
+
+nav ul li2 a {
+  color: rgb(188, 29, 116);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li2 a:hover {
+  text-decoration: underline;
+}
+#home {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: #9c126a;
+}
+
+#home h2 {
+  color: #e699b2;
+}
+
+.poesias-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.poesia1 {
+  background-color: #e699b2;
+  border: 1px solid #60163e;
+  padding: 10px;
+  color: #ffe2eb;
+  flex: 1;
+}
+
+.poesia2 {
+  background-color: #e699b2;
+  border: 1px solid #60163e;
+  padding: 10px;
+  flex: 1;
+  color: #ffe2eb;
+}
+
+footer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: #f7dde5;
+  padding: 40px;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  color: #e699b2;
+}
